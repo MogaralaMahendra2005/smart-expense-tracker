@@ -1,0 +1,5 @@
+
+# Keep Firebase private key out of GitHub
+/firebase-service-account.json
+.env
+firebase-service-account.json

@@ -1,0 +1,30 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+
+# Unused starter project
+client--/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+server/.env
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+
+# Firebase service-account credentials
+server/firebase-service-account.json.json
+server/firebase-service-account.json
+*service-account*.json
